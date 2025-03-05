@@ -6,10 +6,10 @@ jump-app-argocd:
 
 jump-app-cicd:
   enabled: true
-  namespaceDev: user01-jump-app-cicd
+  namespaceDev: <user_namespace>
   namespacePre: mock-value-pre
   namespacePro: mock-value-pro
-  namespaceGitOps: user01-gitops-argocd
+  namespaceGitOps: <username>-gitops-argocd
   functTestRepo: https://github.com/acidonper/jump-app-functional-tests.git
   functTestRepoBranch: master
   functTestMicro: front-javascript
@@ -24,7 +24,7 @@ jump-app-cicd:
 
 # Global variables
 global:
-  appsDomain: apps.cluster-4kh56.dynamic.redhatworkshops.io
+  appsDomain: <openshift_apps_domain>
   # Jump microservices settings
   apps:
     front-javascript:
