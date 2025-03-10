@@ -4,6 +4,7 @@
 #
 
 BRANCHES="feature/jump-app-cicd feature/jump-app-pre feature/jump-app-pro feature/jump-app-dev feature/bootstrap crc crc-cicd master"
+BRANCHES="cicd master"
 
 for i in $BRANCHES
 do
