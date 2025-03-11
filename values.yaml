@@ -34,7 +34,7 @@ global:
       versions:
         - v1
       type: nodejs
-      gitRepo: https://github.com/nveces/jump-app-typescrypt-react.git
+      gitRepo: https://github.com/viss90/jump-app-typescrypt-react.git
     back-golang:
       build: dockerfile
       versions:
