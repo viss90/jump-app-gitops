@@ -16,7 +16,7 @@ jump-app-micros:
 
 # Global variables
 global:
-  appsDomain: apps.cluster-4kh56.dynamic.redhatworkshops.io
+  appsDomain: apps.cluster-gwtg8.dynamic.redhatworkshops.io
   apps:
     front-javascript:
       imagetag: develop
